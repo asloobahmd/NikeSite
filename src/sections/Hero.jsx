@@ -14,9 +14,9 @@ const Hero = () => {
   // };
 
   return (
-    <section className="pb-14">
-      <div className="container min-h-screen px-3 flex flex-col items-center justify-center lg:flex-row gap-x-5 gap-y-6">
-        <div className="pt-28  w-full lg:w-[45%] flex flex-col items-center lg:items-start">
+    <section className="pb-14 px-3">
+      <div className="container min-h-screen  flex flex-col items-center justify-center lg:flex-row gap-x-5 gap-y-6">
+        <div className="pt-28  w-full lg:w-[45%]  flex flex-col items-center lg:items-start">
           <p className="text-2xl text-coral-red font-medium">
             Our Summer collections
           </p>

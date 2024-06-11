@@ -5,3 +5,7 @@
 body {
   @apply bg-[#FAF9F6];
 }
+
+.no-scroll {
+  overflow: hidden;
+}

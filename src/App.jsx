@@ -8,18 +8,27 @@ import Services from "./sections/Services";
 import SpecialOffer from "./sections/SpecialOffer";
 import Subscribe from "./sections/Subscribe";
 import SuperQuality from "./sections/SuperQuality";
+import { Element } from "react-scroll";
 
 const App = () => {
   return (
     <div>
       <Nav />
-      <Hero />
-      <PopularProducts />
-      <SuperQuality />
+      <Element name="home">
+        <Hero />
+      </Element>
+      <Element name="products">
+        <PopularProducts />
+      </Element>
+      <Element name="super-quality">
+        <SuperQuality />
+      </Element>
       <Services />
       <SpecialOffer />
       <CustomerReviews />
-      <Subscribe />
+      <Element name="contact">
+        <Subscribe />
+      </Element>
       <Footer />
     </div>
   );

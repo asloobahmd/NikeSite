@@ -5,8 +5,6 @@ export default {
     container: {
       center: true,
       screens: {
-        sm: "480px",
-        xsm: "620px",
         md: "768px",
         mdd: "976px",
         lg: "1200px",

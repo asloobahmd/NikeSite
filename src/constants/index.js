@@ -22,10 +22,10 @@ import {
 } from "../assets/images";
 
 export const navLinks = [
-  { link: "#home", label: "Home" },
-  { link: "#about-us", label: "About Us" },
-  { link: "#products", label: "Products" },
-  { link: "#contact-us", label: "Contact Us" },
+  { link: "home", label: "Home" },
+  { link: "products", label: "Products" },
+  { link: "super-quality", label: "About Us" },
+  { link: "contact", label: "Contact Us" },
 ];
 
 export const shoes = [
