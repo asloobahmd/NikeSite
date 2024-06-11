@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <section className="pb-14 px-3">
       <div className="container min-h-screen  flex flex-col items-center justify-center lg:flex-row gap-x-5 gap-y-6">
-        <div className="pt-28  w-full lg:w-[45%]  flex flex-col items-center lg:items-start">
+        <div className="pt-6 w-full lg:w-[45%] flex flex-col items-center lg:items-start">
           <p className="text-2xl text-coral-red font-medium">
             Our Summer collections
           </p>
@@ -52,7 +52,7 @@ const Hero = () => {
         </div>
 
         {/* Image side */}
-        <div className="w-full lg:w-[55%] relative flex flex-col items-center justify-center bg-primary bg-hero bg-cover bg-center lg:min-h-screen pt-28 pb-32">
+        <div className="w-full lg:w-[55%] relative flex flex-col items-center justify-center bg-primary bg-hero bg-cover bg-center lg:min-h-screen pt-10 pb-32">
           <img src={currentBigImg} alt="Big Shoe" className="" />
 
           <div className="absolute bottom-[-5%] lg:left-[12%] flex items-center justify-center gap-x-2 md:gap-x-4">
